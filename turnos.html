@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Turnos</title>
+    <style media="screen" type="text/css">
+      div{
+        border: 1px solid black;
+        height: 400px;
+        width: 100px;
+        float: left;
+        margin: 50px;
+      }
+    </style>
+    <script type="text/javascript" src="turnos.js"></script>
+  </head>
+  <body>
+    <div id="trabajadores" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <p draggable="true" ondragstart="drag(event)" id="p1" >Pepe</p>
+      <p draggable="true" ondragstart="drag(event)" id="p2" >Antonio</p>
+      <p draggable="true" ondragstart="drag(event)" id="p3" >Maria</p>
+    </div>
+    <div id="turno1" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+    </div>
+    <div id="turno2" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+    </div>
+  </body>
+</html>
